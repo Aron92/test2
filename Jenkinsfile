@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage(' git clone or git pull ') {
       steps {
-        gir url: 'https://github.com/Aron92/test2.git', branch: 'master'
+        git url: 'https://github.com/Aron92/test2.git', branch: 'master'
       }  
     }
 
